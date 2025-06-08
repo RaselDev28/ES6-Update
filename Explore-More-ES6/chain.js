@@ -11,4 +11,4 @@ const products={
         {id: 1, name: 'HP Laptop', Price: 110000},
     ]
 }
-console.log(products.data[1].Price);
+console.log(products.data[1]?.Price); //Option Chaining
