@@ -1,5 +1,5 @@
 document.getElementById('title').addEventListener('click',
     ()=>{
-        console.log('Hellow');
+        console.log('Hellow'); //Arrow Function
     }
 )
