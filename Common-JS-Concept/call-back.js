@@ -1,18 +1,17 @@
-function buyBooks(sellBook, name){
-    sellBook(name);
+function buyPen(matador, price){
+matador(price);
 }
 
-
-function sellBook(name){
-    console.log('You Boughut a BOOK', name);
+const matador=function(price){
+    console.log("I bought matador pen", price)
+}
+const matador2=function(price){
+    console.log("I bought matador2 pen", price)
+}
+const goodLuck=function(price){
+    console.log("I bought good luck pen", price)
 }
 
-function giftBooks(name){
-    console.log('Gifted book is:', name);
-}
-
-buyBooks(sellBook, 'Java-Script');
-buyBooks(sellBook, 'Java');
-buyBooks(sellBook, 'C++');
-buyBooks(giftBooks, 'Python');
-
+buyPen(matador, 20)
+buyPen(matador2, 10)
+buyPen(goodLuck, 15)
